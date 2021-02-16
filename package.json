@@ -1,12 +1,11 @@
 {
-  "name": "upd_server",
+  "name": "drone_upd_server",
+  "author": "dnbailey",
+  "license": "MIT",
+  "description": "A mock server for the Tello Edu Drone using the SDK 2.0",
   "version": "1.0.0",
-  "main": "index.js",
+  "private": "true",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "start": "node server.js"
+  }
 }
